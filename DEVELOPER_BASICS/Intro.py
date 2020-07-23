@@ -4,7 +4,7 @@ class Book():
     # class variable
     __booklist = []
 
-    #staticmethod
+    #staticmethod, best use case to implement singleton design pattern
     @staticmethod
     def getbooklist():
          if len(Book.__booklist) == 0: # if no books, create a list, else return existing list
