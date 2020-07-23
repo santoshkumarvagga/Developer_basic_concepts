@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="abstract_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="withinheritance.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="withoutinheritance.py">
       <SubType>Code</SubType>
     </Compile>
