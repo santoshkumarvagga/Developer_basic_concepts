@@ -24,6 +24,9 @@
     <Compile Include="abstract_class.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="composition.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="withinheritance.py">
       <SubType>Code</SubType>
     </Compile>
