@@ -34,8 +34,3 @@ c = get_pet("cat")
 
 print(c.speak())
 
-
-
-
-
-
