@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>97d702ef-63a9-4348-90db-fb1fe8def977</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Intro.py</StartupFile>
+    <StartupFile>OOPS\Intro.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,19 +21,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="abstract_class.py">
+    <Compile Include="OOPS\abstract_class.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="composition.py">
+    <Compile Include="OOPS\composition.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="withinheritance.py">
+    <Compile Include="Design patterns\Creational Patterns\Factory\factory.py" />
+    <Compile Include="Design patterns\Creational Patterns\Factory\factory_final.py" />
+    <Compile Include="OOPS\withinheritance.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="withoutinheritance.py">
+    <Compile Include="OOPS\withoutinheritance.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Intro.py" />
+    <Compile Include="OOPS\Intro.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Design patterns\Creational Patterns\Factory\Context" />
+    <Content Include="Design patterns\Creational Patterns\Factory\Theory_Factory" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Design patterns\" />
+    <Folder Include="Design patterns\Creational Patterns\Factory\" />
+    <Folder Include="Design patterns\Creational Patterns\" />
+    <Folder Include="OOPS\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
