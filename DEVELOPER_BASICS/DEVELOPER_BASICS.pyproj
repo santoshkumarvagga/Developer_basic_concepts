@@ -45,6 +45,7 @@
     <Folder Include="Design patterns\" />
     <Folder Include="Design patterns\Creational Patterns\Factory\" />
     <Folder Include="Design patterns\Creational Patterns\" />
+    <Folder Include="Design patterns\Creational Patterns\Abstract Factory\" />
     <Folder Include="OOPS\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
