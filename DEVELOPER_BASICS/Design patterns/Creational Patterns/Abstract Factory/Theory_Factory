@@ -1,0 +1,32 @@
+Notes on Abstarct Factory Method:
+
+Abstract - Cover info
+Concrete - Embedded
+
+* Abstarct factory works around a super factory which creates other factories. This factories is also called as factory
+ of factories. This type of design pattern comes under Creational pattern as this pattern provides one of the bset ways to create an object.
+
+* In Abstract FActory Pattern, an interface is responsible for creating a factory of related objects without explicitly 
+ specifying their classes. Each generated factory can give the objects as per the factory pattern.
+
+* Abstract factory is specially useful when a customer expects a family of related objects at a given time. but dont have to know which family it is untill runtime.
+
+* Scenario:
+	Problem:
+
+		We will build a "Pet factory", which houses 2 COncrete factories.
+		1) Dog factory - produces its products Dogs and Dog food
+		2) Cat factory - produces its products Cats and Cat food
+
+	Solution: (in our code)
+
+		1) Abstract Factory -> "Pet factory"
+		2) Concrete Factory -> "Dog Factory & Cat Factory"
+		3) Abstract Product ->
+		4) Concrete Product -> Dog and Dog food
+							   Cat and Cat food
+	  
+* We implement Abstarct Factory without using Inheritance, mainly because python is a dynamically typed language
+and does not require abstract classes.
+
+* Abstract factories are related to factory method, & concrete factories are often singletons. 
