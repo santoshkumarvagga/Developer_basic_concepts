@@ -1,0 +1,3 @@
+* if we want a class with some global data act as information cache for other software components, then we 
+  should choose creating an object with global data attributes/functions so that always only one and existing 
+  instance of it is being referred to it as a cache.

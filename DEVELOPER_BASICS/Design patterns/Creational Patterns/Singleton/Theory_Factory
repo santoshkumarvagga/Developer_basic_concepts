@@ -1,0 +1,11 @@
+
+* We need to initiate a class only once so that it acts as a Global reference for other 
+  components which can use it as a information cache.
+
+* Any further object creation should refer to same shared global attribute.
+
+* Modules in python are best examples of singletons
+
+* hence, singletons are best way to create a global attribute to be shared as a 
+  reference for all other interacting software components.
+
