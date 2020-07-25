@@ -48,6 +48,7 @@
     <Folder Include="Design patterns\Creational Patterns\Factory\" />
     <Folder Include="Design patterns\Creational Patterns\" />
     <Folder Include="Design patterns\Creational Patterns\Abstract Factory\" />
+    <Folder Include="Design patterns\Creational Patterns\Builder\" />
     <Folder Include="Design patterns\Creational Patterns\Singleton\" />
     <Folder Include="OOPS\" />
   </ItemGroup>

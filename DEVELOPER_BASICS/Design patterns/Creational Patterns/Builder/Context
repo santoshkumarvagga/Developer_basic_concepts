@@ -1,0 +1,2 @@
+ * Consider, a customer interacting with interface. but he randomly chooses objects and expects set of all related objects to appear for the request.
+ i,e. The type of object is only known at run time.

@@ -1,0 +1,38 @@
+Notes on Builder Method:
+
+* Creationa Pattern - one of best way of creating a complex object
+
+* It is building complex objects from simpler objects in a step-by-step manner
+
+* here, a builder cklss builds the final object in step-by-step procedure. 
+  This builder is independent of other objects.
+
+* Problem:
+  when there is need of Excessive number of constructors in project
+
+  Eg: Building Cars:
+	It requires constructing many separate parts and then assemble them.
+
+		- Tires
+		- Engine
+		- Saeats
+		- Glass
+		- AC unit
+
+* Solution:
+  The builder brings 4 members to ease the process of building this complex objects.
+
+1) Director: In charge of building a product, using a user object.
+
+2) Abstract Interfaces: provides interfaces
+(It acts as a builder class providing all the necessary interfaces required in building obhject)
+
+3) Concrete builder: The concrete builder clss inhyerits from the builder class, and actually implements the details 
+of the builder class, for specific type of a product.
+
+4) Product: represents object being built.
+
+* The builder pattern doesnot rely on polymorphism , unlike Factory and Abstarct Factory.
+
+* The forces of builder pattern is on reducing the complexity of creating a complex object, through a divide and conquer 
+strategy.
