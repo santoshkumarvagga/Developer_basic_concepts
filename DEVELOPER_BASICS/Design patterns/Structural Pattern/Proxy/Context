@@ -1,0 +1,9 @@
+* Consder Its expensive to create an instance of an object since it will take huge resources to instiate it.
+
+* So, we have to make sure that each time we try to instantiate/call it, we are calling only when it can
+  listening to our commands/arguments. Else, we have to simply dont call and waste system resources.
+
+* Then, in such cases, proxy design pattern helps out.
+
+* It acts as a Middle man between Caller and Producer. It ensures if Producer is idle, and instantiates 
+  Producer. Else, It will make us to wait untill Producer becomes idle.

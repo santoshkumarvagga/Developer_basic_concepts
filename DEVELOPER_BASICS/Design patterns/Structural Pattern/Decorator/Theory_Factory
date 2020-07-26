@@ -1,8 +1,13 @@
-Notes on Decorator Method:
+Notes on Proxy Method:
 
-* When we want to modify behaviour of certain objects without subclassing it, we choose decorator pattern
+* Consder Its expensive to create an instance of an object since it will take huge resources to instiate it.
 
-* In python, even functions are objects
+* So, we have to make sure that each time we try to instantiate/call it, we are calling only when it can
+  listening to our commands/arguments. Else, we have to simply dont call and waste system resources.
 
-* Python Language supports decorator pattern in intuitive way
+* Then, in such cases, proxy design pattern helps out.
 
+* It acts as a Middle man between Caller and Producer. It ensures if Producer is idle, and instantiates 
+  Producer. Else, It will make us to wait untill Producer becomes idle.
+
+* Decorator, Proxy and Adapter can be closely related.

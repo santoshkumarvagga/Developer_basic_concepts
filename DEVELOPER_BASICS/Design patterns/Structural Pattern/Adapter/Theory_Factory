@@ -1,0 +1,20 @@
+Notes on Adapter Method:
+
+* Adapter converts an interface of a class into another one, which the client is expceting.
+
+* Problem:
+  - Interfaces are incompatible between a client and a server (Incompatible interfaces)
+
+* Scenario:
+  - Korean():
+		speak_korean()
+  - British():
+		speak_british()
+
+   but,
+  - client : speak()
+
+* Our solution is to use the Adapter pattern, that translates the method name in between the client and server.
+
+
+* Bridges and decorators are related to the pattern.
