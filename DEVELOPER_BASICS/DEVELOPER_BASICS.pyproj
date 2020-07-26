@@ -38,8 +38,12 @@
     <Compile Include="OOPS\Intro.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Design patterns\Creational Patterns\Decorator\Context" />
+    <Content Include="Design patterns\Creational Patterns\Decorator\Theory_Factory" />
     <Content Include="Design patterns\Creational Patterns\Factory\Context" />
     <Content Include="Design patterns\Creational Patterns\Factory\Theory_Factory" />
+    <Content Include="Design patterns\Creational Patterns\Prototype\Context" />
+    <Content Include="Design patterns\Creational Patterns\Prototype\Theory_Factory" />
     <Content Include="Design patterns\Creational Patterns\Singleton\Context" />
     <Content Include="Design patterns\Creational Patterns\Singleton\Theory_Factory" />
   </ItemGroup>
@@ -49,6 +53,8 @@
     <Folder Include="Design patterns\Creational Patterns\" />
     <Folder Include="Design patterns\Creational Patterns\Abstract Factory\" />
     <Folder Include="Design patterns\Creational Patterns\Builder\" />
+    <Folder Include="Design patterns\Creational Patterns\Decorator\" />
+    <Folder Include="Design patterns\Creational Patterns\Prototype\" />
     <Folder Include="Design patterns\Creational Patterns\Singleton\" />
     <Folder Include="OOPS\" />
   </ItemGroup>

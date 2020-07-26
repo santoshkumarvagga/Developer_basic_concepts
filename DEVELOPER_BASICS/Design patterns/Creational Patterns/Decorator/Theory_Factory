@@ -1,0 +1,8 @@
+Notes on Decorator Method:
+
+* When we want to modify behaviour of certain objects without subclassing it, we choose decorator pattern
+
+* In python, even functions are objects
+
+* Python Language supports decorator pattern in intuitive way
+

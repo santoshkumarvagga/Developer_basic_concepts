@@ -1,0 +1,14 @@
+Notes on Prototype Method:
+
+* When we need multiple similar objects but with slight modifications(if any), then we should create a
+  Prototype which can be set as refernce, to take from.
+
+* It is expensive to create a whole new class each time, hence we can clone the existing class and make 
+changes to the members.
+
+* Scenario:
+   - Mass production
+
+* Solution:
+   - Create a prototypical instance first
+   - Simply clone it whenever you need replica

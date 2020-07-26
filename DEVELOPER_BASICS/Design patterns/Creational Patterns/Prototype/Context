@@ -1,0 +1,12 @@
+* Consider a Mass car production company
+
+* It has to make 100 cars of same model
+
+* Its expensive for it to design new models each time and its useless when we can refer existing ones.
+
+* So, better solution could be first design a model and bring out a sample working piece.
+
+* if it meets all requirements, then use the existing template to manufacture other 99 cars.
+
+* If any need to alter options for some cars, then either change/modify proprties of the exisitng model and 
+  make it out.
