@@ -16,4 +16,12 @@ Notes on Proxy Method:
   - Clients - Interacting with Proxy object most of the time untill resource intensive object is availble.
   - Proxy - Waiting for creating the resource intensive objects
 
+* The Producer object is very expensive to instantiate every time if its needed for others. Because if it is 
+  busy, then no useful work has to be done with producer and we are wasting resources to create a busy producer.
+
+* Therefore, We handle call to producer via a Middle Person called Proxy. Instantiating Proxy method is 
+  very light weight. Based on some criteria, Proxy will know whether producer is busy or not.
+  If Producer is found idle, then Proxy will return Instance of Producer, else he keeps waiting us untill
+  Producer becomes idle.
+
 * Adapter & Decorator are related to the proxy design pattern.
