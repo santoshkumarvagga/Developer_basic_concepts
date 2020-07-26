@@ -1,0 +1,19 @@
+Notes on Proxy Method:
+
+* Proxy becomes handy when creating an object that is resource intensive.
+
+* Problem: 
+  - Postpone object creation as long as possible due to resource intensiveness of object we ar creating.
+  - Therefore, We need to have a placeholder that will indicate need for object creation at that 
+    point of time.
+
+* Scenario:
+  - Producer( Resource ) - handling objects, waiting for Guests.
+  - Artists( Proxy )- waiting for Producer, will be checking for free time of producer.
+  - Guests - consulted by Producer.
+
+* Solution:
+  - Clients - Interacting with Proxy object most of the time untill resource intensive object is availble.
+  - Proxy - Waiting for creating the resource intensive objects
+
+* Adapter & Decorator are related to the proxy design pattern.
