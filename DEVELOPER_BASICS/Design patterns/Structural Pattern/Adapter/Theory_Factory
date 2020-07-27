@@ -16,5 +16,4 @@ Notes on Adapter Method:
 
 * Our solution is to use the Adapter pattern, that translates the method name in between the client and server.
 
-
 * Bridges and decorators are related to the pattern.

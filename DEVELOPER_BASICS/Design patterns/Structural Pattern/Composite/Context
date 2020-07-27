@@ -1,0 +1,8 @@
+* When we have items in a hierarchical order(following tree structure), then we can apply Composite design 
+pattern.
+
+* He we declare one top class. then we declare childs to add it to.
+
+* later, we declare super top class to hold above items.
+
+* i,e. first children were added to some parent node. Later, we can add the root and add up these children.

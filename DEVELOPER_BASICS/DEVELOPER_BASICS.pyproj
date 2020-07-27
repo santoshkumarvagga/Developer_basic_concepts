@@ -40,6 +40,8 @@
   <ItemGroup>
     <Content Include="Design patterns\Structural Pattern\Adapter\Context" />
     <Content Include="Design patterns\Structural Pattern\Adapter\Theory_Factory" />
+    <Content Include="Design patterns\Structural Pattern\Composite\Context" />
+    <Content Include="Design patterns\Structural Pattern\Composite\Theory_Factory" />
     <Content Include="Design patterns\Structural Pattern\Decorator\Context" />
     <Content Include="Design patterns\Structural Pattern\Decorator\Theory_Factory" />
     <Content Include="Design patterns\Creational Patterns\Factory\Context" />
@@ -59,6 +61,7 @@
     <Folder Include="Design patterns\Creational Patterns\Builder\" />
     <Folder Include="Design patterns\Structural Pattern\Decorator\" />
     <Folder Include="Design patterns\Structural Pattern\Adapter\" />
+    <Folder Include="Design patterns\Structural Pattern\Composite\" />
     <Folder Include="Design patterns\Structural Pattern\Proxy\" />
     <Folder Include="Design patterns\Creational Patterns\Prototype\" />
     <Folder Include="Design patterns\Creational Patterns\Singleton\" />

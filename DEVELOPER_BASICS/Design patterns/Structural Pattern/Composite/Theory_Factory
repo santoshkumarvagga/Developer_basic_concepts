@@ -1,0 +1,18 @@
+Notes on Composite Method:
+
+* A composite design pattern maintains a tree data structure to maintain part-whole relationships.
+
+* Problem:
+	- Here, we like to build a recursive data structure, so that an 
+	  element of a tree can have its own sub elements
+	- Eg: creating of Menu like Menu -> submenu -> subsubmenu
+    - The submenu items can have their own sub-sub menu items.
+
+* Solution:
+	- Component- An abstarct class
+	- Child- A concrete class, inherits Component class.
+	- Composite-A concrete class, inherits Component class.
+
+* Finally, Our component class maintains child object, by addding and removing down to a tree data structure.
+
+* Decorator, Iterator and Visitor design patterns are related to this method.
