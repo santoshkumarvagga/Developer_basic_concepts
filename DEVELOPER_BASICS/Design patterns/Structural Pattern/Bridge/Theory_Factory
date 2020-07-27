@@ -1,0 +1,22 @@
+Notes on Bridge Method:
+
+* The bridge method untangles an unncessary complicated hierarchy, especially when 
+  implementation-specific classes are mixed together with implementation-independent classes.
+
+* Problem:
+  - Two unrelated, parallel, or orthogonal abstractions.
+
+  - One is Implementation specific
+
+  - The other one is Implementation independent.
+
+* Scenario:
+  - Implementation independent circle abstraction(involves how to give properties to a circle)
+  - Implementation dependent circle abstraction (invloves how to draw a circle)
+
+* Solution:
+  - Not trting to put both Implementation dependent and Implementation specific classes under a single 
+    class hierarchy
+
+* The abstract factory and adapter factory are the related patterns to this rich design pattern.
+
