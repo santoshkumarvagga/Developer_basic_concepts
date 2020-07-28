@@ -1,0 +1,4 @@
+* Consider when we have a class. Any change to its some parameter has to be notified to a set of observers
+(expect who did the change), then we can go for Observer pattern.
+
+* Core temperature maintaince in a Reactor Plant.

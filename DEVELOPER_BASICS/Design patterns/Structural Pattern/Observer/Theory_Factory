@@ -1,0 +1,18 @@
+Notes on Observer Method:
+
+* Observer pattern establishes a one to many relationships between a subject and multiple observers.
+
+* Problem: 
+	- Subject object should be monitored.
+	- Observer obejcts should be notified about any changes in the subject.
+
+* Scenario:
+	- Core temperatures monitored using sensores in reactor plants.
+	- So that, whenever changes in temperatures will be notified to registered observers using notifications.
+
+* Solution:
+	- We need an abstract class called Subject, which has interfaces for attaching, detatching and 
+	  Notifying Observers.
+	- We also need concrete subject class inheriting from the abstract subject class.
+
+* Singleton is related to the Obsevrer design pattern.

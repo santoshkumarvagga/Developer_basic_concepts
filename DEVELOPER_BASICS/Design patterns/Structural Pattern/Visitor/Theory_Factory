@@ -1,0 +1,16 @@
+Notes on Visitor Method:
+
+* This pattern allows adding new features to an existing class hierarchy, without changing it.
+
+* Problem:
+	- It is some times neccessary to add new functions dynamically to an existing classes 
+	   with minimal changes.
+
+* Scenario:
+	- House class: Some bathroom repair in a house
+	- Visitor in this Scenario: a Plumber or Electrican.
+
+* Solution:
+	- Visitor pattern represents new operations to perform on an existing class hierarchy.
+	- Visitors can also provide operations on a composite object.
+

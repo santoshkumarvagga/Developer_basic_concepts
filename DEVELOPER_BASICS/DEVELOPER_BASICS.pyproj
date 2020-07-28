@@ -50,10 +50,14 @@
     <Content Include="Design patterns\Creational Patterns\Factory\Theory_Factory" />
     <Content Include="Design patterns\Creational Patterns\Prototype\Context" />
     <Content Include="Design patterns\Creational Patterns\Prototype\Theory_Factory" />
+    <Content Include="Design patterns\Structural Pattern\Observer\Context" />
+    <Content Include="Design patterns\Structural Pattern\Observer\Theory_Factory" />
     <Content Include="Design patterns\Structural Pattern\Proxy\Context" />
     <Content Include="Design patterns\Structural Pattern\Proxy\Theory_Factory" />
     <Content Include="Design patterns\Creational Patterns\Singleton\Context" />
     <Content Include="Design patterns\Creational Patterns\Singleton\Theory_Factory" />
+    <Content Include="Design patterns\Structural Pattern\Visitor\Context" />
+    <Content Include="Design patterns\Structural Pattern\Visitor\Theory_Factory" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Design patterns\" />
@@ -65,6 +69,8 @@
     <Folder Include="Design patterns\Structural Pattern\Adapter\" />
     <Folder Include="Design patterns\Structural Pattern\Composite\" />
     <Folder Include="Design patterns\Structural Pattern\Bridge\" />
+    <Folder Include="Design patterns\Structural Pattern\Visitor\" />
+    <Folder Include="Design patterns\Structural Pattern\Observer\" />
     <Folder Include="Design patterns\Structural Pattern\Proxy\" />
     <Folder Include="Design patterns\Creational Patterns\Prototype\" />
     <Folder Include="Design patterns\Creational Patterns\Singleton\" />
