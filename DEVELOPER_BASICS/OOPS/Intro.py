@@ -1,13 +1,13 @@
 """OOPS in Python"""
 class Book():
 
-    # class variable
+    #  class variable
     __booklist = []
 
-    #staticmethod, best use case to implement singleton design pattern
+    # staticmethod, best use case to implement singleton design pattern
     @staticmethod
     def getbooklist():
-         if len(Book.__booklist) == 0: # if no books, create a list, else return existing list
+         if len(Book.__booklist) == 0: #  if no books, create a list, else return existing list
              Book.__booklist = []
          else:
             return Book.__booklist
@@ -17,15 +17,15 @@ class Book():
         Book._Book__booklist.append(book_name)
         print("Book named {} added.".format(self.book_name))
         
-    # instance method
+    #  instance method
     def set_price(self, price):
-        # price is private variable
+        #  price is private variable
         self.__price = price
         print("Book price set to be ",self.__price)
 
-    # instance method
+    #  instance method
     def author(self,author):
-        # author is protected variable
+        #  author is protected variable
         self._author = author
         print("Book author set to be ",self._author)
 
@@ -33,7 +33,7 @@ a = Book('Introduction to algorithms by Santosh Vagga')
 a.set_price(1200)
 a.author('Mr. Santoshkumar Vagga')
 
-# to access private variable directly without use of function, use object._classname__privatevariable
+#  to access private variable directly without use of function, use object._classname__privatevariable
 print("The set price is ",a._Book__price)
 print(a.getbooklist())
 

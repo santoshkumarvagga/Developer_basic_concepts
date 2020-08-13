@@ -1,0 +1,16 @@
+Notes on Strategy Method:
+
+* The strategy pattern offers the family of inter-changeable algorithms to a client.
+
+* Problem:
+  The problem we often see is the need of dynamically changing of a behavoiur object.
+
+* Scenario:
+- Abstract Strategy class with a default set of behaviours.
+- Concrete Strategy classes with new behaviours.
+
+  We offer our strategy class with its default beahivour,  when there is a need, we provide another variation 
+  of strategy class by dynamically utilising its default method with the new one.
+
+* Solution:
+- Python allows adding methods dynamically, by importing 'types' module.

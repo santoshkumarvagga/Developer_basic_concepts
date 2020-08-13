@@ -50,12 +50,16 @@
     <Content Include="Design patterns\Creational Patterns\Factory\Theory_Factory" />
     <Content Include="Design patterns\Creational Patterns\Prototype\Context" />
     <Content Include="Design patterns\Creational Patterns\Prototype\Theory_Factory" />
+    <Content Include="Design patterns\Structural Pattern\Iterator\Context" />
+    <Content Include="Design patterns\Structural Pattern\Iterator\Theory_Factory" />
     <Content Include="Design patterns\Structural Pattern\Observer\Context" />
     <Content Include="Design patterns\Structural Pattern\Observer\Theory_Factory" />
     <Content Include="Design patterns\Structural Pattern\Proxy\Context" />
     <Content Include="Design patterns\Structural Pattern\Proxy\Theory_Factory" />
     <Content Include="Design patterns\Creational Patterns\Singleton\Context" />
     <Content Include="Design patterns\Creational Patterns\Singleton\Theory_Factory" />
+    <Content Include="Design patterns\Structural Pattern\Strategy pattern\Context" />
+    <Content Include="Design patterns\Structural Pattern\Strategy pattern\Theory_Factory" />
     <Content Include="Design patterns\Structural Pattern\Visitor\Context" />
     <Content Include="Design patterns\Structural Pattern\Visitor\Theory_Factory" />
   </ItemGroup>
@@ -69,6 +73,9 @@
     <Folder Include="Design patterns\Structural Pattern\Adapter\" />
     <Folder Include="Design patterns\Structural Pattern\Composite\" />
     <Folder Include="Design patterns\Structural Pattern\Bridge\" />
+    <Folder Include="Design patterns\Structural Pattern\Iterator\" />
+    <Folder Include="Design patterns\Structural Pattern\Chain of Responsibility\" />
+    <Folder Include="Design patterns\Structural Pattern\Strategy pattern\" />
     <Folder Include="Design patterns\Structural Pattern\Visitor\" />
     <Folder Include="Design patterns\Structural Pattern\Observer\" />
     <Folder Include="Design patterns\Structural Pattern\Proxy\" />

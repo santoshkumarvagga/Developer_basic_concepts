@@ -17,10 +17,11 @@ Scenario:
 Solution:
 
 * (Isolation) - An iterator access and traversal features from an aggreagte objects.
-  It also provides an interface for accessing the elements of an aggregate object.
 
-* (Interface) - An iterator keeps tarck of the iterator being traversed.
+* (Interface) -   It also provides an interface for accessing the elements of an aggregate object.
 
-* (Tracking) - One of the recommended solutions is to make the aggregate object to create an iterator for the client.
+* (Tracking) - An iterator keeps tarck of the iterator being traversed.
 
-* (Recommendation) - The composite design pattern is related to Iterator pattern.
+* (Recommendation) - One of the recommended solutions is to make the aggregate object to create an iterator for the client.
+
+* The composite design pattern is related to Iterator pattern.
