@@ -1,0 +1,3 @@
+* Consider when there is an existing class hierarchy. Only some parts of it need changes like adding new
+  operations or modifying existing ones.
+

@@ -1,0 +1,26 @@
+Notes on Iterator Method:
+
+* The iterator pattern allows the client to have the sequential 
+  access to the elemets of the aggregate objects, without exposing the underlying structure.
+
+* The problem is that some programmers over crowd the traversal interfaces of an aggregated object 
+  for every possible layer of iteration.
+
+Scenario:
+
+* we will be building our own iterator using a python in built iterator function zip().
+
+
+* the iterator iterates through the list of german counting words. It will iterate only upto a certain 
+  point, based on a client input.
+
+Solution:
+
+* (Isolation) - An iterator access and traversal features from an aggreagte objects.
+  It also provides an interface for accessing the elements of an aggregate object.
+
+* (Interface) - An iterator keeps tarck of the iterator being traversed.
+
+* (Tracking) - One of the recommended solutions is to make the aggregate object to create an iterator for the client.
+
+* (Recommendation) - The composite design pattern is related to Iterator pattern.
