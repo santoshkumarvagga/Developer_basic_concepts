@@ -50,6 +50,8 @@
     <Content Include="Design patterns\Creational Patterns\Factory\Theory_Factory" />
     <Content Include="Design patterns\Creational Patterns\Prototype\Context" />
     <Content Include="Design patterns\Creational Patterns\Prototype\Theory_Factory" />
+    <Content Include="Design patterns\Structural Pattern\Design patterns Best practices\consistency.txt" />
+    <Content Include="Design patterns\Structural Pattern\Design patterns Best practices\Other Qualities.txt" />
     <Content Include="Design patterns\Structural Pattern\Iterator\Context" />
     <Content Include="Design patterns\Structural Pattern\Iterator\Theory_Factory" />
     <Content Include="Design patterns\Structural Pattern\Observer\Context" />
@@ -75,6 +77,7 @@
     <Folder Include="Design patterns\Structural Pattern\Bridge\" />
     <Folder Include="Design patterns\Structural Pattern\Iterator\" />
     <Folder Include="Design patterns\Structural Pattern\Chain of Responsibility\" />
+    <Folder Include="Design patterns\Structural Pattern\Design patterns Best practices\" />
     <Folder Include="Design patterns\Structural Pattern\Strategy pattern\" />
     <Folder Include="Design patterns\Structural Pattern\Visitor\" />
     <Folder Include="Design patterns\Structural Pattern\Observer\" />

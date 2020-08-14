@@ -1,0 +1,15 @@
+Notes on Chain of Responsibility Method:
+
+* Chain of responsibilty opens a various possiblity of processing a given request.
+
+* The chain of responsibility pattern de-couples the request and the processing.
+
+* Problem:
+	- Many different processing needs to be done depending on the request type.
+
+* Scenario:
+	- We use many different integers. and handlers to find the range of integer.
+
+* Solution:
+	Abstract Handler: handles request if its not handled.
+	Concrete Handler: checks whether request came is handles or not. if not, handles it and returns status code.

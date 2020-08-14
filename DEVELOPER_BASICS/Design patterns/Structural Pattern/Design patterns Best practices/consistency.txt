@@ -1,0 +1,23 @@
+* Other than simply using design patterns, there are also univerala principles we need to be applying 
+  whenever we are coding.
+
+* Consistency is one of the hall mark of a good software engineering.
+
+* One of the reasons why we recommned the design patterns is to promote the consistency of the code.
+
+* If the same solution is used over and over agian to solve the same problem, we just need to modify
+  only small piece of code when there is a need for change of code. Otherwise, we need to frame differnet 
+  strategies for different solutions to accomodate the change.
+
+* Benefits of consistency:
+- Decrease in committing errors: since the sam epiece of code is used over and over again.
+- Increase in detecting errors: since more sets of eyes look at the same code.
+- Cost savings in software development: since we need to reuse well established the design solutions in
+  the form of design patterns, in-house or third party implementations.
+
+- Software architecture(by use of design patterns) helps in scaling up of the software.
+- Another, measure of acheiving consistency is by us of: Frameworks.
+- A frameworks is a set of design pattern put together in a specific passion to accomplish a specific goal.
+- for example. there are framweoks for Software Security, for Web based business like E-commerce.
+
+- therefore, consistency is very imp and design pattern helps doing it.

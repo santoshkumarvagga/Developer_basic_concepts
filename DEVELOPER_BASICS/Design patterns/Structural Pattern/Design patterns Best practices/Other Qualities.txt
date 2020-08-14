@@ -1,0 +1,11 @@
+* The use of design patterns also promote the ideal qualities of software 
+  such as completeness and correctness.
+* Completeness and Correctness:	 
+  - Completeness - how much of what is required
+  - Correctness - correct results by software
+
+* Coupling and Cohesion:
+  - Coupling: tightly bounded software components, which have dependency on other functionality 
+              in other component.
+  - Cohesion: the indepence among software components.
+  - Its recommended for less coupling and more cohesion in software architecture.
