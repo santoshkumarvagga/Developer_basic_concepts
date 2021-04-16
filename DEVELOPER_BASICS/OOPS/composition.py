@@ -1,4 +1,3 @@
-
 """
 Composition - how to create complex objects from simpler ones.
 
@@ -13,9 +12,11 @@ However, we can combine both inheritance and composition,as per needs.
 
 """
 
-class vehicle():
-    '''composition class for object car'''
-    def __init__(self, price, colour, car = None):
+
+class vehicle:
+    """composition class for object car"""
+
+    def __init__(self, price, colour, car=None):
         self.price = price
         self.colour = colour
 
@@ -26,22 +27,24 @@ class vehicle():
         self.cars.append(self.car)
 
     def getvehiclecount(self):
-            result = 0 
-            for c in self.cars:
-                result+=1
-            return result
+        result = 0
+        for c in self.cars:
+            result += 1
+        return result
 
 
-class Car():
-    '''abstract details here'''
+class Car:
+    """abstract details here"""
+
     def __init__(self, name, model):
-        self.name = name 
+        self.name = name
         self.model = model
 
     def __str__(self):
-        return self.name+' '+str(self.model)
+        return self.name + " " + str(self.model)
 
-mycar = Car('Innova', 'Z+')
-a = vehicle(20000, 'red', mycar)
+
+mycar = Car("Innova", "Z+")
+a = vehicle(20000, "red", mycar)
 print(a.car)
 print(a.getvehiclecount())

@@ -64,6 +64,10 @@
     <Content Include="Design patterns\Structural Pattern\Strategy pattern\Theory_Factory" />
     <Content Include="Design patterns\Structural Pattern\Visitor\Context" />
     <Content Include="Design patterns\Structural Pattern\Visitor\Theory_Factory" />
+    <Content Include="OOPS\.flake8" />
+    <Content Include="requirements.txt" />
+    <Content Include=".pre-commit-config.yaml" />
+    <Content Include="pyproject.toml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Design patterns\" />

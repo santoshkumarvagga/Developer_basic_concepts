@@ -14,3 +14,5 @@ Notes on Visitor Method:
 	- Visitor pattern represents new operations to perform on an existing class hierarchy.
 	- Visitors can also provide operations on a composite object.
 
+
+
